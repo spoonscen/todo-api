@@ -3,10 +3,11 @@ services:
   web:
     build: .
     ports:
-    - "3000:3000"
     - "8070:8070"
     volumes:
     - .:/go/src/app
+    depends_on:
+    - mongo
     links:
     - mongo
   mongo:
