@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+    - "3000:3000"
+    - "8070:8070"
+    volumes:
+    - .:/go/src/app
+    links:
+    - mongo
+  mongo:
+    image: mongo
+    ports:
+    - "27017:27017"
