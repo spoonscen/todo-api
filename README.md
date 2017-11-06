@@ -6,7 +6,9 @@ The app is set up for Dev mode only. It uses `gin` https://github.com/codegangst
 - `docker-compose up --build`
 
 # Todo
-- [ ] GET route for all Todos
-- [ ] GET by ID route
-- [ ] PUT to update a Todo by ID
-- [ ] POST to create a new Todo
+- ~~GET route for all Todos~~
+- ~~GET by ID route~~
+- PUT to update a Todo by ID
+- ~~POST to create a new Todo~~
+- PATCH to update a Todo by ID
+- DELETE by ID
